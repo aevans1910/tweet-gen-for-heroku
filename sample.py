@@ -1,9 +1,9 @@
 import random
 
 def get_text():
-    file = 'random.txt'
+    file_dir = 'random.txt'
 
-    with open(file, 'r') as f:
+    with open(file_dir, 'r') as f:
         text = f.read().split()
     
     return text

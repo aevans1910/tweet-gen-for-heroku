@@ -14,5 +14,3 @@ def random_script_order(script, length):
 script = ['hello', 'earthlings', 'I', 'have', 'come', 'to', 'dominate', 'your', 'planet']
 length = len(script)
 print(random_script_order(script,length))
-    
-        
