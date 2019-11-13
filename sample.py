@@ -38,13 +38,13 @@ def sample_frequency(histogram):
         start_search_range = end_search_range
         #If word not found,the search continues
 
-if __name__ == '__main__':
-    histo = histogram(get_text())
+# if __name__ == '__main__':
+#     histo = histogram(get_text())
 
-    results = []
+#     results = []
 
-    for counter in range(10):
-        random_word = sample_frequency(histo)
-        results.append(random_word)
+#     for counter in range(10):
+#         random_word = sample_frequency(histo)
+#         results.append(random_word)
 
-    print (results)
+#     print(results)
