@@ -3,9 +3,10 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        font-family: sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         line-height: 1.5em;
+        background-color: bisque;
     }
 
     /* Here is style for the navigation bar */
@@ -24,6 +25,7 @@
 
         .Buttons > .nav-item {
             margin: 1.5em;
+            font-family: 'Homemade Apple', cursive;
             text-decoration: none;
             color: black;
         }
@@ -32,6 +34,7 @@
         #jumbotron > .text > h1{
             display: flex;
             justify-content: center;
+            font-family: 'Homemade Apple', cursive;
         }
 
         #jumbotron > .text > h3{
@@ -39,3 +42,26 @@
             justify-content: center;
             color: black;
         }
+
+    /* Here is styling for the about section */
+
+        #about > .text > h3{
+            display: flex;
+            justify-content: center;
+            font-family: 'Homemade Apple', cursive;
+        }
+
+        #about > .text > p{
+            display: flex;
+            justify-content: center;
+        }
+
+    /* Here is styling for the tweet */
+
+        #about > .text > h1{
+            display: flex;
+            justify-content: center;
+            font-family: 'Homemade Apple', cursive;
+        }
+
+        
