@@ -64,4 +64,13 @@
             font-family: 'Homemade Apple', cursive;
         }
 
+    /* Here is styling for the image */
+
+        .image > img {
+            display: flex;
+            justify-content: center;
+            height: 500px;
+            width: auto;
+        }
+
         
