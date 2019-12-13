@@ -8,7 +8,34 @@
     <title>Document</title>
 </head>
 <body>
-    hi hello
+    <!-- Navbar -->
+    <div class="Navbar">
+        <div class="Buttons">
+            <a class="nav-item nav-link" href="#cards">About</a>
+            <a class="nav-item nav-link" href="#long-image">Try it out!</a>
+        </div>
+    </div> 
+
+    <!-- Hero -->
+    <div id="jumbotron">
+        <div class="text">
+            <h1>Tweet generator!</h1> <br>
+            <h3>Create your own Edgar Allen Poe tweets!</h3>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="About">
+        <div class="text">
+            <h3>About</h3>
+            <p>With this porgram, you can randomly generate tweets based off of the Edgar
+                Allen Poe volume 1 and 2 anthologies. The computer will randomly select a
+                string of words that make as much gramatical sense as possible for you to 
+                make your tweet!
+            </p>
+        </div>
+    </div>
+
     {% if gen %}
         <h1>{{ gen }}</h1>
     {% endif %}
