@@ -27,3 +27,15 @@
             text-decoration: none;
             color: black;
         }
+
+    /* Here is styling for the jumbotron */
+        #jumbotron > .text > h1{
+            display: flex;
+            justify-content: center;
+        }
+
+        #jumbotron > .text > h3{
+            display: flex;
+            justify-content: center;
+            color: black;
+        }
